@@ -16,11 +16,11 @@ namespace MvideoParse
             Categories = new List<Category>();
             dataAdapter.Connect(new MySqlConnectionStringBuilder()
             {
-                Server = "http://s2.kts.tu-bryansk.ru/",
+                Server = "*",
                 Port = 3306,
-                Database = "17IAS-AMISI_ZagoriychukKU",
-                UserID = "17IAS-AMISI.ZagoriychukKU",
-                Password = "@*oQW^p5r[01PSL!",
+                Database = "*",
+                UserID = "*",
+                Password = "*",
                 CharacterSet = "utf8"
             });
         }
